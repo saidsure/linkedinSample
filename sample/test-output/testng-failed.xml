@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hitachi Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login test(failed)">
+    <parameter name="password" value="Sai@2805"/>
+    <parameter name="username" value="suredurga.285@gmail.com"/>
+    <classes>
+      <class name="linkedin.sample.TestScenarioClass">
+        <methods>
+          <include name="quitTest"/>
+          <include name="verifyLinkenInLoginLogout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- linkedin.sample.TestScenarioClass -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+</suite> <!-- Failed suite [hitachi Suite] -->
