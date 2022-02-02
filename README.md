@@ -17,12 +17,10 @@ Project structure:
 --> Logout class has elements and methods related to lougout page
 --> Dashboard class has elements and methods related to dashboard page
 
---> To get started you need an account with linkedin. create an account manually and add the credentails to testng.xml. In parameter tag/element provide username and password in password parameter.
+--> To get started you need an account with linkedin. create an account manually and add the credentails to testng.xml. In parameter tag/element provide username and password in password parameter. Also mention a local file path in SetUp.java class in test. Replace "/Users/skota/Downloads/Screenshot" with your file path
 
 
 To run project 
 --> right click on testng.xml, click "Run As" --> "testng suite"
 
-
-NOTE: Forgot to add screenshot code when failure happens, I will update that part by end of the day today a i need laptop again, My apologies for missing that part.
 
