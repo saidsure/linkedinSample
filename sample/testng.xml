@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="hitachi Suite">
+<listeners>
+    <listener class-name="linkedin.sample.SetUp" />
+  </listeners>
  <test name="Login test">
-     <parameter name="username" value=""/>
-     <parameter name="password" value=""/>
+
+     <parameter name="username" value="suredurga.285@gmail.com"/>
+     <parameter name="password" value="Sai@2805"/>
      <classes>
      <class name="linkedin.sample.TestScenarioClass"/>
      </classes>
