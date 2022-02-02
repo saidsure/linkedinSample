@@ -18,6 +18,8 @@ public class TestScenarioClass {
 	       Assert.assertTrue(LogoutPage.isLogoutPage(),"Logout page failed or user landed on different page");
 	       Dashboard.goToDashboardPage();
 	       Assert.assertFalse(Dashboard.isDashboardPage(),"user logged in and landed on dashboard page");
+	      //uncomment the code below to check the screenshot 
+	       //Assert.assertTrue(false);
 	      
 	   }
 	 
