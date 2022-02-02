@@ -24,3 +24,5 @@ To run project
 --> right click on testng.xml, click "Run As" --> "testng suite"
 
 
+NOTE: Forgot to add screenshot code when failure happens, I will update that part by end of the day today a i need laptop again, My apologies for missing that part.
+
