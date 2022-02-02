@@ -9,7 +9,7 @@ Project structure:
 
 -> you will find 5 classes total in src/test/java folder
 
---> TestScenarioClass has the test defined in it, this is the starting point of our execution. There is a send method closeBrowser() which closes browser after each test has been executed. You can add more test cases to this class
+--> TestScenarioClass has the test defined in it, this is the starting point of our execution. There is a second method closeBrowser() which closes browser after each test has been executed. You can add more test cases to this class
 
 --> SetUp class is where the browser is launched and closed. all the classes inherit this classs in order to use the driver(browser element)
 
